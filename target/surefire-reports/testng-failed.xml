@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [APITest]">
+  <test thread-count="5" verbose="0" name="api(failed)">
+    <classes>
+      <class name="com.api.assignment.commentsDetails">
+        <methods>
+          <include name="postMethod"/>
+        </methods>
+      </class> <!-- com.api.assignment.commentsDetails -->
+      <class name="com.api.assignment.postsDetails">
+        <methods>
+          <include name="postMethod"/>
+        </methods>
+      </class> <!-- com.api.assignment.postsDetails -->
+      <class name="com.api.assignment.usersDetails">
+        <methods>
+          <include name="PostMethod"/>
+        </methods>
+      </class> <!-- com.api.assignment.usersDetails -->
+    </classes>
+  </test> <!-- api(failed) -->
+</suite> <!-- Failed suite [APITest] -->

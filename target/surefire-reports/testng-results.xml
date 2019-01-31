@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="APITest" duration-ms="7773" started-at="2019-01-31T03:33:24Z" finished-at="2019-01-31T03:33:32Z">
+    <groups>
+    </groups>
+    <test name="api" duration-ms="7773" started-at="2019-01-31T03:33:24Z" finished-at="2019-01-31T03:33:32Z">
+      <class name="com.api.assignment.postsDetails">
+        <test-method status="PASS" signature="getMethod()[pri:1, instance:com.api.assignment.postsDetails@6fadae5d]" name="getMethod" duration-ms="2865" started-at="2019-01-31T03:33:24Z" finished-at="2019-01-31T03:33:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethod -->
+        <test-method status="PASS" signature="postMethod()[pri:2, instance:com.api.assignment.postsDetails@6fadae5d]" name="postMethod" duration-ms="613" started-at="2019-01-31T03:33:29Z" finished-at="2019-01-31T03:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postMethod -->
+      </class> <!-- com.api.assignment.postsDetails -->
+      <class name="com.api.assignment.usersDetails">
+        <test-method status="PASS" signature="GetMethod()[pri:1, instance:com.api.assignment.usersDetails@2d6e8792]" name="GetMethod" duration-ms="904" started-at="2019-01-31T03:33:28Z" finished-at="2019-01-31T03:33:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetMethod -->
+        <test-method status="PASS" signature="PostMethod()[pri:2, instance:com.api.assignment.usersDetails@2d6e8792]" name="PostMethod" duration-ms="613" started-at="2019-01-31T03:33:31Z" finished-at="2019-01-31T03:33:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostMethod -->
+      </class> <!-- com.api.assignment.usersDetails -->
+      <class name="com.api.assignment.commentsDetails">
+        <test-method status="PASS" signature="getMethod()[pri:1, instance:com.api.assignment.commentsDetails@17f6480]" name="getMethod" duration-ms="1488" started-at="2019-01-31T03:33:27Z" finished-at="2019-01-31T03:33:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethod -->
+        <test-method status="PASS" signature="postMethod()[pri:2, instance:com.api.assignment.commentsDetails@17f6480]" name="postMethod" duration-ms="1226" started-at="2019-01-31T03:33:30Z" finished-at="2019-01-31T03:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postMethod -->
+      </class> <!-- com.api.assignment.commentsDetails -->
+    </test> <!-- api -->
+  </suite> <!-- APITest -->
+</testng-results>
